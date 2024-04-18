@@ -1,0 +1,71 @@
+@media (min-width:767.5px){
+    .poster-image::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('https://www.iconpacks.net/icons/2/free-twitter-logo-icon-2429-thumb.png');
+        background-size: cover;
+        background-position: center;
+        z-index: -1;
+        border-radius: 25px 0px 0px 25px;
+    }
+    .poster-image{
+        position: relative;
+    }
+    .login-row{
+        height: 550px !important;
+        width: 1000px !important;
+    }
+}
+
+@media (max-width:767.3px){
+    .poster-image{
+        background-image: url('https://www.iconpacks.net/icons/2/free-twitter-logo-icon-2429-thumb.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        background-size:contain;
+        width: 24vw;
+        height: 20vh;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    .login-row{
+        margin-top: 0px !important;
+        margin: 15px;
+        height: 600px;
+        width: 1000px;
+    }
+    .hide-sidebar-content{
+        display: none;
+    }
+    .form-css{
+        margin-top: -80px !important;
+    }
+    .register-css{
+        margin-top: -40px !important;
+    }
+}
+@media (max-width:985px){
+    .tweet-side{
+        width: 350px !important;
+    }
+    .sidebar{
+        width: 150px !important;
+        margin-left: -20px !important;
+    }
+    .content-tweet{
+        padding-left: 30px !important;
+    }
+    .sm-img{
+        width: 250px !important;
+        height: 150px !important;
+    }
+}
+
+.login-row{
+    border-radius: 25px;
+}
